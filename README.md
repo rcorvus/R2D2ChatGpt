@@ -2,6 +2,9 @@
 
 Ask R2-D2 about anything related to Star Wars or how he was created. Powered by Python, Flask, and ChatGPT.
 
+![image](https://github.com/rcorvus/R2D2ChatGpt/assets/5025458/1e75ba1b-f30a-48fe-91cd-d504724173d6)
+
+
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the libraries listed in requirements.txt:
