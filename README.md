@@ -1,6 +1,6 @@
-# DROID
+# R2-D2 Chat
 
-Creates a friendly droid assistant
+Ask R2-D2 about anything related to Star Wars or how he was created. Powered by Python, Flask, and ChatGPT.
 
 ## Installation
 
