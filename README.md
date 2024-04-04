@@ -7,17 +7,24 @@ Ask R2-D2 about anything related to Star Wars or how he was created. Powered by 
 
 ## Installation
 
+```
+az webapp up --runtime PYTHON:3.12 --sku F1 --logs --name r2d2chatgpt --location westus
+```
+
+Then go to:
+``` http://r2d2chatgpt.azurewebsites.net ```
+
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the libraries listed in requirements.txt:
 
 For example:
-```bash
-pip install openai
+```
+pip install -r requirements.txt
 ```
 
 Create a .env file (the .gitignore file keeps those out of source control)
 in the .env file add this line:
 
-```bash
+```
 OPENAI_API_KEY="your_openai_api_key"
 ```
 
