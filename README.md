@@ -7,6 +7,13 @@ Ask R2-D2 about anything related to Star Wars or how he was created. Powered by 
 ## Add Environment Variable to your computer and reboot
 ``` OPENAI_API_KEY=my_openai_api_key ```
 
+Locally or in a virtual env, use the package manager [pip](https://pip.pypa.io/en/stable/) to install the libraries listed in requirements.txt:
+
+For example:
+```
+pip install -r requirements.txt
+```
+
 ## Create a Dockerfile file (the .gitignore file keeps those out of source control)
 Should look like this (be sure to include your own OPENAI_API_KEY)
 
@@ -58,17 +65,8 @@ Set your OPENAI_API_KEY environment variable on your Azure deployment in the Con
 
 Restart your Azure app after setting the environment variable.
 
-Then go to:
+Then go to your deployed app on Azure:
 ``` http://r2d2chatgpt.azurewebsites.net ```
-
-
-Locally or in a virtual env, use the package manager [pip](https://pip.pypa.io/en/stable/) to install the libraries listed in requirements.txt:
-
-For example:
-```
-pip install -r requirements.txt
-```
-
 
 
 ## License
