@@ -14,4 +14,4 @@ def gpt_response():
     return str(get_response(user_request))
 
 if __name__ == "__main__":
-    app.run(debug=False)
+    app.run()

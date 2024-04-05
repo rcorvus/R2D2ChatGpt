@@ -6,6 +6,10 @@
 # dotenv files
 .env
 
+Dockerfile
+
+*.pyc
+
 # User-specific files
 *.rsuser
 *.suo
@@ -482,3 +486,4 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+/Dockerfile
