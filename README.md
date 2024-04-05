@@ -49,7 +49,7 @@ In docker app, click on app and test that it runs correctly.
 az webapp up --runtime PYTHON:3.12 --sku F1 --logs --name r2d2chatgpt --location westus
 ```
 
-####NOTE: If you get an error like "Insufficient permissions to create a zip in current directory. Please re-run the command with administrator privileges":
+NOTE: If you get an error like "Insufficient permissions to create a zip in current directory. Please re-run the command with administrator privileges":
 That means you need to close Visual Studio before running the above command again :-)
 
 
