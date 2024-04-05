@@ -44,13 +44,19 @@ Run it locally:
 
 In docker app, click on app and test that it runs correctly.
 
-Deploy your app to Azure:
+### Deploy your app to Azure:
 ```
 az webapp up --runtime PYTHON:3.12 --sku F1 --logs --name r2d2chatgpt --location westus
 ```
 
-###NOTE: If you get an error like "Insufficient permissions to create a zip in current directory. Please re-run the command with administrator privileges":
+####NOTE: If you get an error like "Insufficient permissions to create a zip in current directory. Please re-run the command with administrator privileges":
 That means you need to close Visual Studio before running the above command again :-)
+
+
+Set your OPENAI_API_KEY environment variable on your Azure deployment in the Configuration section:
+![image](https://github.com/rcorvus/R2D2ChatGpt/assets/5025458/b4da641b-2bb4-4bed-ba6f-66ccc6b5a7cf)
+
+Restart your Azure app after setting the environment variable.
 
 Then go to:
 ``` http://r2d2chatgpt.azurewebsites.net ```
